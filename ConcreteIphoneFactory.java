@@ -11,7 +11,7 @@ public class ConcreteIphoneFactory extends IphoneFactory {
             case IPHONE_13_MINI:
                 return new Iphone13Mini();
             default:
-                System.out.println("Vehicle cannot be created.");
+                System.out.println("Iphone não pode ser criado.");
                 return null;
         }
     }
